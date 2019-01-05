@@ -29,7 +29,7 @@ public class ReportFormController {
     @RequestMapping(value = "/index")
     @ResponseBody
     public String index(){
-        return "test success11";
+        return "test success";
     }
     /**
      * 导出报表
